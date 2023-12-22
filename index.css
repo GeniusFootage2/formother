@@ -61,7 +61,7 @@ body {
     transform: rotate(-8deg);
     position: relative;
     display: flex;
-    right: -8em;
+    right: -9em;
     top: -16.6em;
     z-index: 1;
 }
@@ -71,14 +71,14 @@ body {
     transform: rotate(-8deg);
     position: relative;
     display: flex;
-    right: -12.4em;
+    right: -13.4em;
     top: -33.7em;
 }
 
 .element {
-    width: 20em;
+    width: 16em;
     display: flex;
     position: relative;
-    top: -30em;
-    left: -3em;
+    top: -39em;
+    left: -2em;
 }
