@@ -1,51 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-image: url(IMG/WhatsApp\ Image\ 2023-12-22\ at\ 12.34.54_ccf0d265.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.container {
     width: 100vw;
-    background-image: url(IMG/WhatsApp\ Image\ 2023-12-22\ at\ 12.34.54_ccf0d265.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
-}
-
-.potret1 {
-    height: 460px;
-    transform: rotate(15deg);
-    /* position: relative;
-    left: -143px;
-    top: -35px; */
-    z-index: 3;
-}
-
-.foto1 {
-    height: 295px;
-    transform: rotate(15deg);
-    /* position: relative;
-    left: -20px;
-    top: -433px; */
+    position: relative;
     z-index: 1;
 }
 
+.potret1 {
+    height: 318px;
+    transform: rotate(15deg);
+    position: relative;
+    display: flex;
+    left: -95px;
+    top: -29px;
+    z-index: 1;
+}
+
+.foto1 {
+    height: 204px;
+    transform: rotate(15deg);
+    position: relative;
+    top: -301px;
+    left: -10px;
+    display: flex;
+}
+
 .potret2 {
-    height: 460px;
+    height: 318px;
     transform: rotate(-8deg);
-    /* position: relative;
-    left: 163px;
-    top: -396px; */
-    z-index: 4;
+    position: relative;
+    display: flex;
+    right: -129px;
+    top: -268px;
+    z-index: 1;
 }
 
 .foto2 {
-    height: 295px;
+    height: 204px;
     transform: rotate(-8deg);
-    /* position: relative;
-    left: 264px;
-    top: -797px; */
-    z-index: 2;
+    position: relative;
+    display: flex;
+    right: -199px;
+    top: -542px;
+}
+
+.element {
+    width: 310px;
+    display: flex;
+    position: relative;
+    top: -556px;
+    left: -65px;
 }
