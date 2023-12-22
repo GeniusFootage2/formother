@@ -29,13 +29,60 @@ body {
     z-index: 1;
 }
 
-.ucapan {
+div .ucapan {
     position: absolute;
     top: 2em;
     right: 1em;
     font-size: 2.3em;
     font-family: 'miamaregular';
 }
+
+div .ucapan {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  
+  div .ucapan:first-of-type {    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+  }
+  
+  div .ucapan:last-of-type {
+    width:0px;
+    animation: reveal 7s infinite;
+  }
+  
+  div .ucapan2:last-of-type span {
+    margin-left:-355px;
+    animation: slidein 7s infinite;
+  }
+  
+  @keyframes showup {
+      0% {opacity:0;}
+      20% {opacity:1;}
+      80% {opacity:1;}
+      100% {opacity:0;}
+  }
+  
+  @keyframes slidein {
+      0% { margin-left:-800px; }
+      20% { margin-left:-800px; }
+      35% { margin-left:0px; }
+      100% { margin-left:0px; }
+  }
+  
+  @keyframes reveal {
+      0% {opacity:0;width:0px;}
+      20% {opacity:1;width:0px;}
+      30% {width:355px;}
+      80% {opacity:1;}
+      100% {opacity:0;width:355px;}
+  }
+
+  /* selesai */
 
 .potret1 {
     height: 20em;
@@ -71,7 +118,7 @@ body {
     transform: rotate(-8deg);
     position: relative;
     display: flex;
-    right: -12.2em;
+    right: -12.4em;
     top: -33.7em;
 }
 
