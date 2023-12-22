@@ -31,8 +31,8 @@ body {
 
 .ucapan {
     position: absolute;
-    top: 80px;
-    right: 47px;
+    top: 2em;
+    right: 1em;
     font-size: 2.3em;
     font-family: 'miamaregular';
 }
@@ -42,8 +42,8 @@ body {
     transform: rotate(15deg);
     position: relative;
     display: flex;
-    left: -95px;
-    top: -29px;
+    left: -6em;
+    top: -1.6em;
     z-index: 1;
 }
 
@@ -51,8 +51,8 @@ body {
     height: 13em;
     transform: rotate(15deg);
     position: relative;
-    top: -303px;
-    left: -10px;
+    top: -19em;
+    left: -0.6em;
     display: flex;
 }
 
@@ -61,8 +61,8 @@ body {
     transform: rotate(-8deg);
     position: relative;
     display: flex;
-    right: -130px;
-    top: -268px;
+    right: -8em;
+    top: -16.6em;
     z-index: 1;
 }
 
@@ -71,8 +71,8 @@ body {
     transform: rotate(-8deg);
     position: relative;
     display: flex;
-    right: -200px;
-    top: -542px;
+    right: -12.4em;
+    top: -33.7em;
 }
 
 .element {
